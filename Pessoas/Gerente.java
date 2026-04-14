@@ -1,5 +1,7 @@
 package Pessoas;
 
-public class Gerente {
+public class Gerente extends Pessoa implements Recursos.Gerencia {
+
+    
     
 }

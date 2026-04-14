@@ -7,17 +7,42 @@ import Dados.Telefone;
 
 public abstract class Pessoa{
 
-    @SuppressWarnings("unused")
     private Cpf cpf;
-
-    @SuppressWarnings("unused")
     private Endereco endereco;
-
-    @SuppressWarnings("unused")
     private Nome nome;
-
-    @SuppressWarnings("unused")
     private Telefone telefone;
+
+    public Cpf getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(Cpf cpf) {
+        this.cpf = cpf;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
+    public Nome getNome() {
+        return nome;
+    }
+
+    public void setNome(Nome nome) {
+        this.nome = nome;
+    }
+
+    public Telefone getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(Telefone telefone) {
+        this.telefone = telefone;
+    }
 
     public Pessoa() {
         
